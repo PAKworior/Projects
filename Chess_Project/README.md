@@ -46,11 +46,10 @@ The game will now launch in your terminal.
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
-And the easiest way to contribute for now is to make the ascci art and decide themes the colour template(when you type "theme" in the game, it shows a menu, with nice looking menu bars for each theme (i need 7 more of these). you can contact me for more details.
+- Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
+- And the easiest way to contribute for now is to make the ascci art and decide themes the colour template(when you type "theme" in the game, it shows a menu, with nice looking menu bars for each theme (i need 7 more of these). you can contact me for more details.
 
 ## License
-
-[Add your license information here]
+just credit me when using this code
 
  
