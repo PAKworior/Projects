@@ -20,12 +20,11 @@ i will add a feature, where you can type "help" in game  to see the game manual
      inorder to place any other chess piece, you need to enter command like this "bki e4"  
      where, b means black and ki = king and "e4" is the coordinate where you want to place it  
      " <b = black, w = white><ki = king| r = rook| p = pawn| q = queen| k = knight| b = bishop>  
-                 wq e4  
-                / \ \_\---------->  chess coordinates  
-               /   \  
-              /     \  
-             \/     \/  
-           white    queen  
+     in "wq e4"  
+    w = white  
+    q = queen  
+    e4 = chess coordinates you want to place it in(they are different from normal coordinates)  
+  
 8: you can use this command to display a notification on the notification bar:  
   format: " -m \"enter contents of the notification\"  {time in a few miliseconds}"  
   example " -m \"hello, my name is Umar\" 3000 "  
