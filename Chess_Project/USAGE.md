@@ -17,19 +17,19 @@ i will add a feature, where you can type "help" in game  to see the game manual
  3: enter "t" or "test" to run the tests that you can custom write to do testing  
  4: enter "r" or "restart" to restart, ofc  
  5: placing special pieces to board:  
-     inorder to place any other chess piece, you need to enter command like this "bki e4"  
-     where, b means black and ki = king and "e4" is the coordinate where you want to place it  
-     " <b = black, w = white><ki = king| r = rook| p = pawn| q = queen| k = knight| b = bishop>  
-     in "wq e4"  
-    w = white  
-    q = queen  
-    e4 = chess coordinates you want to place it in(they are different from normal coordinates)  
+         inorder to place any other chess piece, you need to enter command like this "bki e4"  
+         where, b means black and ki = king and "e4" is the coordinate where you want to place it  
+         " <b = black, w = white><ki = king| r = rook| p = pawn| q = queen| k = knight| b = bishop>  
+         in "wq e4"  
+        w = white  
+        q = queen  
+        e4 = chess coordinates you want to place it in(they are different from normal coordinates)  
   
 8: you can use this command to display a notification on the notification bar:  
-  format: " -m \"enter contents of the notification\"  {time in a few miliseconds}"  
-  example " -m \"hello, my name is Umar\" 3000 "  
-  this will display the message "hello, my name is Umar" for 3000 milliseconds  
-  this is also usefull for debugging since you can't use normal std::cout or printf in this code since terminal is already been used and else, undefined befaveour happens.  
+    format: " -m \"enter contents of the notification\"  {time in a few miliseconds}"  
+    example " -m \"hello, my name is Umar\" 3000 "  
+    this will display the message "hello, my name is Umar" for 3000 milliseconds  
+    this is also usefull for debugging since you can't use normal std::cout or printf in this code since terminal is already been used and else, undefined befaveour happens.  
 9: this command is for removing a notification. every notification on the board is been assined an id automatically when you run the command #8, and the scheduler runs this command to remove that pirticular notification. you don't have to worry about it.  
 10: when you are in theme menu, or pawn promotion menu this command handles the interaction with the menues.  
 11: it opens theme menu to change the game menu.  
