@@ -32,3 +32,5 @@ i will add a feature, where you can type "help" in game  to see the game manual
   this will display the message "hello, my name is Umar" for 3000 milliseconds
   this is also usefull for debugging since you can't use normal std::cout or printf in this code since terminal is already been used and else, undefined befaveour happens.
 9: this command is for removing a notification. every notification on the board is been assined an id automatically when you run the command #8, and the scheduler runs this command to remove that pirticular notification. you don't have to worry about it.
+10: when you are in theme menu, or pawn promotion menu this command handles the interaction with the menues.
+11: it opens theme menu to change the game menu.
