@@ -25,7 +25,7 @@ i will add a feature, where you can type "help" in game  to see the game manual
                /   \  
               /     \  
              \/     \/  
-          white    queen  
+           white    queen  
 8: you can use this command to display a notification on the notification bar:  
   format: " -m \"enter contents of the notification\"  {time in a few miliseconds}"  
   example " -m \"hello, my name is Umar\" 3000 "  
